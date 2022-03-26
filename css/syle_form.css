@@ -1,0 +1,205 @@
+.container{
+    width: 1000px;
+    height: 1000px;
+}
+.container__form__text{
+    width: 282px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+input{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+}
+.container__form__rectangle{
+    width: 520px;
+    height: 50px;
+    margin-top: 32px;
+}
+::placeholder{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #978c8c;
+    transform: translateX(24px);
+}
+.container__form__select{
+    width: 520px;
+    height: 50px;
+    margin-top: 24px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    color: #978c8c;
+    appearance: none;
+    background: url(/TeachMeSkills/HW/task__form/assets/Vector.svg) no-repeat right;
+    background-position-x: calc(100% - 20px);
+}
+.container__form__address{
+    width: 1000px;
+    height: 50px;
+    margin-top: 24px;
+}
+.container__form__address__street{
+    width: 254px;
+    height: 50px;
+}
+.container__form__address__inf{
+    width: 130px;
+    height: 50px;
+    margin-left: 13px;
+}
+.container__form__comets{
+    width: 692px;
+    height: 50px;
+    margin-top: 24px;
+}
+.container__form__text2{
+    width: 300px;
+    height: 24px;
+    margin-top: 64px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+.container__form__names{
+    width: 692px;
+    height: 50px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.container__form__names__style{
+    width: 220px;
+    height: 50px;
+}
+.container__form__telephone{
+    width: 220px;
+    height: 50px;
+    margin-top: 24px;
+}
+.container__form__text3{
+    width: 479px;
+    height: 15px;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+.contacts__forms__email{
+    width: 456px;
+     height: 50px;
+    margin-top: 27px;
+}
+.container__form__text4{
+    width: 593px;
+    height: 15px;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+.container__form__check{
+    margin-top: 24px;
+}
+.container__form__checkbox__text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;  
+}
+.container__form__checkbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.container__form__checkbox+label{
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.container__form__checkbox+label::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #CFA5A5;
+    border-radius: 6.64286px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.container__form__checkbox:checked+label::before{
+    border-color: #CFA5A5;
+    background-image: url(/TeachMeSkills/HW/task__form/assets/Vector2.svg)
+}
+.container__form__text5{
+    width: 228px;
+    height: 34px;
+    margin-top: 65px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+.container__form__radio{
+    margin-top: 32px;
+}
+.container__form__radio__1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.container__form__radio__1+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.container__form__radio__1+label::before {
+    content: '';
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #CFA5A5;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+  .container__form__radio__1:checked+label::before {
+    border-color: #CFA5A5;
+    background-image: url(/TeachMeSkills/HW/task__form/assets/Ellipse\ 14.svg);
+}
